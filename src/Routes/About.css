@@ -1,0 +1,64 @@
+.about{
+    padding: 2.5rem;
+    background-color: #FAFAFA;
+    height: 100%;  
+    margin-left: 160px;
+    text-align: left;
+}
+
+.about_logo {
+    width: 45px;
+    height: 45px;
+    color: #252323;
+    padding-top: 10px;
+}
+
+.about_text{  
+    margin-top: 2rem;
+    text-align: justify;
+
+    color: rgba(95 95 95);
+    font-size: 18px;
+    font-weight: 400;
+  
+}
+
+.about_header{
+
+    display: flex;
+    
+    justify-content: left;
+    align-items: center;
+    gap: 1rem;    
+    
+}
+
+.about_header div p{
+    font-size: 39px;
+    padding-top: 14px;
+    font-weight: bold;
+    color: #252323;
+}
+
+.about_skills{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas:
+        "a b c"
+        "center center center";
+    gap: 14px;
+    margin-top: 3rem;
+}
+
+.about_skill{
+    grid-area: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 7px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+         
+    height: 80px;
+}
+
