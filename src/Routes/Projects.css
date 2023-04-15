@@ -46,3 +46,33 @@
     font-weight: 400;
     color: #252323;
 }
+
+.project{
+    display: flex;
+    
+    margin-bottom: 80px;
+    
+}
+
+.foto{
+    width: 500px;
+    height: 300px;
+    
+}
+
+.button_project{
+    
+    width: 150px;
+    height: 42px;
+    font-weight: 400;
+    margin-top: 15px;
+    margin-left: 15px;
+    
+    border-radius: 6px;
+    background-color: white;
+    border: none;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    text-align: center;
+    cursor: pointer;
+    
+}

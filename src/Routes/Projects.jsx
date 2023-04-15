@@ -14,7 +14,23 @@ export const projects =[
       "./html.png",
       "./javascript.png",
       "./css.png"
-    ]
+    ],
+    github : "https://github.com/eescarria/PI-BackEnd-ORM",
+    vercel:"",
+    img : "./clinica.PNG",
+    alt: "Foto back"
+  },
+  { name: "Aplicación Web - Temática de la salud",
+    description : "Aplicación web ligada a la temática de la salud. Integra diferentes rutas, formularios de contacto, temas de estado, entre otros. Todo ello consumiendo información de una API.",
+    logos : [
+      "./react.png",
+      "./javascript.png",
+      "./css.png"
+    ],
+    github : "https://github.com/eescarria/ctd-esp-fe3-final",
+    vercel: "https://ctd-esp-fe3-final-six.vercel.app/",
+    img : "./app.PNG",
+    alt: "Foto React"
   }
 ]
 
@@ -30,25 +46,32 @@ export const Projects = () => {
           projects.map((project, index)=>{
             return(
               <div key={index} className='project'>
-                <h3 className='project_title'>{project.name}</h3>
-                <p className='project_description'>{project.description}</p>
                 <div>
-                  {project.logos.map((logo,index)=>{
-                    return(
-                      <img key={index} src={logo} alt="logo" />
-                    )
-                  })}
+                  <h3 className='project_title'>{project.name}</h3>
+                  <p className='project_description'>{project.description}</p>
+                  <div>
+                    {project.logos.map((logo,index)=>{
+                      return(
+                        <img key={index} src={logo} alt="logo" />
+                      )
+                    })}
+                  </div>
+                  <div>
+                    <a href={project.vercel} target='.blank'><button className='button_project'><GrDeploy/> Deploy</button></a>
+                    
+                    <a href={project.github} target='.blank'><button className='button_project'><FaGithub/> Código</button></a>
+                    
+                  </div>
                 </div>
+                <a href={project.github} target='.blank'><img className='foto'  src={project.img} alt={project.alt} /></a>
+                
+                
               </div>
             )
-
           })
         }
       </div>
-      <div>
-        <button><GrDeploy/> Deploy</button>
-        <button><FaGithub/> Código</button>
-      </div>
+      
       
     </div>
   )

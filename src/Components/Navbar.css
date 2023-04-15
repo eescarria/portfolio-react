@@ -56,4 +56,15 @@ nav img{
   transition: 0.3s ease-in-out;
 }
 
+.flag{
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+}
+
+.button_flag{
+  background-color: #181818;
+  margin-top: 20px;
+}
+
   

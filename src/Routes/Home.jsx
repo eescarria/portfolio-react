@@ -1,12 +1,17 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import "./Home.css"
 import { Link } from 'react-router-dom'
+import LanguageContext from '../Context/context'
 
 export const Home = () => {
+
+  const { language } = useContext(LanguageContext)
+  const {text} = language
+  
   return (
     <div className='info'>
           <div className='container'>
-            <h1>Hola!</h1>
+            <h1>{text.title}</h1>
             <h1>Mi nombre es <br/>Estefanía Escarria García</h1>
             <p>Soy Ingeniera Industrial y actualmente estudiante de la <br/>carrera Certified Tech Developer 💻 en Digital House. </p>
             <p>Soy una apasionada por la tecnología y estoy en búsqueda <br/> de una oportunidad para incursionar en el mundo TI <br/>
