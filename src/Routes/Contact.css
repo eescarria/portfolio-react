@@ -1,0 +1,65 @@
+.container{
+    background-color: #FAFAFA;
+    height: 100%;  
+    margin-left: 160px;
+    text-align: left;
+    
+}
+
+.contact_header{
+    display: flex;
+    align-items: center;
+    gap: 1rem;    
+    
+}
+
+.contact_logo {
+    width: 45px;
+    height: 45px;
+    color: #252323;
+    padding-top: 20px;
+    
+}
+
+.contact_logos {
+    width: 30px;
+    height: 30px;
+    color: #252323;
+    padding-top: 10px;
+    margin-right: 10px;
+}
+
+
+.contact_header p{
+    font-size: 39px;
+    padding-top: 14px;
+    font-weight: bold;
+    color: #252323;
+}
+
+.leyenda{
+    font-size: 15px;
+    color: #5f5f5f;
+    font-weight: 400;
+    text-align: left;
+    margin-bottom: 1rem;
+    
+}
+
+.contact_options{
+    display: flex;
+    flex-direction: column;
+    width: 150%;
+    
+}
+
+.contact_list{
+    display: flex;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}

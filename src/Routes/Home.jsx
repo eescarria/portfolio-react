@@ -4,8 +4,8 @@ import { Link } from 'react-router-dom'
 
 export const Home = () => {
   return (
-    <div className='container'>
-        <div className='info'>
+    <div className='info'>
+          <div className='container'>
             <h1>Hola!</h1>
             <h1>Mi nombre es <br/>Estefanía Escarria García</h1>
             <p>Soy Ingeniera Industrial y actualmente estudiante de la <br/>carrera Certified Tech Developer 💻 en Digital House. </p>
