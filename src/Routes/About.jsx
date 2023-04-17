@@ -1,6 +1,7 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import { BsPersonFill, BsTools } from "react-icons/bs";
 import "./About.css"
+import LanguageContext from '../Context/context';
 
 export const tech = [
     {src:"./java.png", alt:"Logo Java", name:"Java"},
@@ -13,23 +14,27 @@ export const tech = [
 ]
 
 export const About = () => {
+
+    const { language } = useContext(LanguageContext)
+    const {text} = language
+
   return (
     <div className='about'>
         <div className='about_header'>
             <BsPersonFill className='about_logo' />
             <div>
-                <p>Acerca de mí</p>
+                <p>{text.about.title}</p>
                    
             </div>
         </div>
-        <p className='about_text'>Durante los últimos 10 años me he desempeñado en el sector manufacturero, he trabajado como planeadora de materiales, de producción de planta, de fabricación en terceros. En la actualidad me estoy capacitando como Desarrolladora de Software, por lo cual busco oportunidades para poder desempeñarme como tal, aportar ideas y conocimiento de acuerdo con las habilidades que ya he adquirido y al mismo tiempo tener la posibilidad de seguir aprendiendo.</p>
-        <p className='about_text'>Soy una persona con habilidades para trabajar en equipo, asumir retos y afrontar dificultades, trabajar bajo presión, caracterizada por su pensamiento analítico en la resolución de problemas y con capacidad para adaptarse al cambio.</p>
+        <p className='about_text'>{text.about.text1}</p>
+        <p className='about_text'>{text.about.text2}</p>
 
         <div className='about2'>
             <div className='about_header'>
                 <BsTools className='about_logo'/>
                 <div>
-                    <p>Habilidades</p>
+                    <p>{text.about.title2}</p>
                 </div>
             </div>
             <div className='about_skills'>

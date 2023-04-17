@@ -4,6 +4,17 @@
     "title2": "Mi nombre es",
     "description": "Soy Ingeniera Industrial y actualmente estudiante de la carrera Certified Tech Developer 💻 en Digital House.",
     "description2": "Soy una apasionada por la tecnología y estoy en búsqueda de una oportunidad para incursionar en el mundo TI como Desarrolladora Backend y poder participar en proyectos desafiantes."    
+  },
+
+  "about" :{
+    "title": "Acerca de mi",
+    "text1": "Durante los últimos 10 años me he desempeñado en el sector manufacturero, he trabajado como planeadora de materiales, de producción de planta, de fabricación en terceros. En la actualidad me estoy capacitando como Desarrolladora de Software, por lo cual busco oportunidades para poder desempeñarme como tal, aportar ideas y conocimiento de acuerdo con las habilidades que ya he adquirido y al mismo tiempo tener la posibilidad de seguir aprendiendo.",
+    "text2": "Soy una persona con habilidades para trabajar en equipo, asumir retos y afrontar dificultades, trabajar bajo presión, caracterizada por su pensamiento analítico en la resolución de problemas y con capacidad para adaptarse al cambio.",
+    "title2": "Habilidades Tech"
+  },
+
+  "projects": {
+    "title": "Proyectos"
   }
   
 }

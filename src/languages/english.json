@@ -1,9 +1,21 @@
 {
-  "home": {"title":"Hello!",
-            "title2": "My name is",
-            "description": "I am an Industrial Engineer and currently I am a student of the Certified Tech Developer career 💻 at Digital House.",
-            "description2": "I am passionate about technology and I am looking for an opportunity to venture into the IT world as a Backend Developer and be able to participate in challenging projects."
-          }
+  "home": {
+    "title":"Hello!",
+    "title2": "My name is",
+    "description": "I am an Industrial Engineer and currently I am a student of the Certified Tech Developer career 💻 at Digital House.",
+    "description2": "I am passionate about technology and I am looking for an opportunity to venture into the IT world as a Backend Developer and be able to participate in challenging projects."
+  },
+
+  "about": {
+    "title": "About me",
+    "text1": "During the last 10 years, I worked in the manufacturing sector, I worked as a Material Requeriment Planner, Supply Planner, third-party manufacturing planner. I am studying to be a Software Developer, so I would like to be able to perform as such, being able to contribute with the skills that I have already acquired and at the same time I would like to have the possibility of continuing to learn.",
+    "text2": "I am a person with skills to work in a team, take on challenges and face difficulties, work under pressure, characterized by analytical thinking in problem solving and the ability to adapt to change.",
+    "title2": "Tech Skills"
+  },
+
+  "projects": {
+    "title": "Projects"
+  }
   
             
 }

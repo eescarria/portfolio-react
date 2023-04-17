@@ -1,8 +1,9 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import "./Projects.css"
 import { FaProjectDiagram } from "react-icons/fa";
 import { GrDeploy } from "react-icons/gr";
 import { FaGithub } from "react-icons/fa";
+import LanguageContext from '../Context/context';
 
 
 export const projects =[
@@ -35,11 +36,15 @@ export const projects =[
 ]
 
 export const Projects = () => {
+
+  const { language } = useContext(LanguageContext)
+  const {text} = language
+
   return (
     <div className='container'>
       <div className='projects_header'>
         <FaProjectDiagram className='projects_logo'/>
-        <p>Proyectos</p>
+        <p>{text.projects.title}</p>
       </div>
       <div>
         {
