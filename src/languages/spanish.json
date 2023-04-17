@@ -14,7 +14,40 @@
   },
 
   "projects": {
-    "title": "Proyectos"
+    "title": "Proyectos",
+    "list" :[
+      { "name": "Clínica odontológica",
+        "description" : "Sistema que permite administrar la reserva de turnos entre pacientes y odontólogos.  Gestiona los datos de odontólogos, pacientes, turnos y tiene Login.",
+        "logos" : [
+          "./java.png",
+          "./spring.png",
+          "./html.png",
+          "./javascript.png",
+          "./css.png"
+        ],
+        "github" : "https://github.com/eescarria/PI-BackEnd-ORM",
+        "vercel":"",
+        "img" : "./clinica.PNG",
+        "alt": "Foto back"
+      },
+      { "name": "Aplicación Web - Temática de la salud",
+        "description" : "Aplicación web ligada a la temática de la salud. Integra diferentes rutas, formularios de contacto, temas de estado, entre otros. Todo ello consumiendo información de una API.",
+        "logos" : [
+          "./react.png",
+          "./javascript.png",
+          "./css.png"
+        ],
+        "github" : "https://github.com/eescarria/ctd-esp-fe3-final",
+        "vercel": "https://ctd-esp-fe3-final-six.vercel.app/",
+        "img" : "./app.PNG",
+        "alt": "Foto React"
+      }
+    ]
+  },
+
+"contact" :{
+  "title": "Contacto",
+  "text": "Si tienes alguna duda, por favor no dudes en ponerte en contacto de cualquier forma!"
   }
   
 }

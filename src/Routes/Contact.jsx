@@ -1,16 +1,21 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import { GrContactInfo } from "react-icons/gr";
 import { FaGithub, FaLinkedin, FaWhatsapp, FaRegEnvelope } from "react-icons/fa";
 import "./Contact.css"
+import LanguageContext from '../Context/context';
 
 export const Contact = () => {
+
+  const { language } = useContext(LanguageContext)
+  const {text} = language
+
   return (
     <div className='container'>
       <div className='contact_header'>
         <GrContactInfo className='contact_logo'/>
-        <p>Contacto</p>
+        <p>{text.contact.title}</p>
       </div>
-      <p className='leyenda'>No dudes en ponerte en contacto conmigo de cualquier forma!</p>
+      <p className='leyenda'>{text.contact.text}</p>
       <div className='contact_options'>
         <div className='contact_list'>
           <div><FaWhatsapp className='contact_logos'/></div>

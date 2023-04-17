@@ -6,40 +6,13 @@ import { FaGithub } from "react-icons/fa";
 import LanguageContext from '../Context/context';
 
 
-export const projects =[
-  { name: "Clínica odontológica",
-    description : "Sistema que permite administrar la reserva de turnos entre pacientes y odontólogos.  Gestiona los datos de odontólogos, pacientes, turnos y tiene Login.",
-    logos : [
-      "./java.png",
-      "./spring.png",
-      "./html.png",
-      "./javascript.png",
-      "./css.png"
-    ],
-    github : "https://github.com/eescarria/PI-BackEnd-ORM",
-    vercel:"",
-    img : "./clinica.PNG",
-    alt: "Foto back"
-  },
-  { name: "Aplicación Web - Temática de la salud",
-    description : "Aplicación web ligada a la temática de la salud. Integra diferentes rutas, formularios de contacto, temas de estado, entre otros. Todo ello consumiendo información de una API.",
-    logos : [
-      "./react.png",
-      "./javascript.png",
-      "./css.png"
-    ],
-    github : "https://github.com/eescarria/ctd-esp-fe3-final",
-    vercel: "https://ctd-esp-fe3-final-six.vercel.app/",
-    img : "./app.PNG",
-    alt: "Foto React"
-  }
-]
-
 export const Projects = () => {
 
   const { language } = useContext(LanguageContext)
   const {text} = language
-
+  
+  const projects = text.projects.list
+  
   return (
     <div className='container'>
       <div className='projects_header'>
@@ -64,7 +37,7 @@ export const Projects = () => {
                   <div>
                     <a href={project.vercel} target='.blank'><button className='button_project'><GrDeploy/> Deploy</button></a>
                     
-                    <a href={project.github} target='.blank'><button className='button_project'><FaGithub/> Código</button></a>
+                    <a href={project.github} target='.blank'><button className='button_project'><FaGithub/> {language.id === "EN" ?  "Code" : "Código"}</button></a>
                     
                   </div>
                 </div>

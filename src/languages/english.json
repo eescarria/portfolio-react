@@ -14,8 +14,42 @@
   },
 
   "projects": {
-    "title": "Projects"
+    "title": "Projects",
+    "list" :[
+        { "name": "Dental Clinic",
+          "description" : "Reservation system that allows to schedule appointments between patients and dentists.  Manage the data of dentists, patients, shifts and it also has Secure Login System.",
+          "logos" : [
+            "./java.png",
+            "./spring.png",
+            "./html.png",
+            "./javascript.png",
+            "./css.png"
+          ],
+          "github" : "https://github.com/eescarria/PI-BackEnd-ORM",
+          "vercel":"",
+          "img" : "./clinica.PNG",
+          "alt": "Foto back"
+        },
+        { "name": "Web App - Regarding to Health",
+          "description" : "Web application linked to the topic of health. It integrates different routes, contact forms, status themes, and others. All this consuming data from an API.",
+          "logos" : [
+            "./react.png",
+            "./javascript.png",
+            "./css.png"
+          ],
+          "github" : "https://github.com/eescarria/ctd-esp-fe3-final",
+          "vercel": "https://ctd-esp-fe3-final-six.vercel.app/",
+          "img" : "./app.PNG",
+          "alt": "Foto React"
+        }
+    ]
+  },
+
+  "contact" :{
+    "title": "Contact",
+    "text":"Please feel free to contact me if you need any further information!"
   }
-  
-            
+
 }
+
+  
