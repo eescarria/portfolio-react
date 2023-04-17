@@ -8,22 +8,22 @@ export const Home = () => {
   const { language } = useContext(LanguageContext)
   const {text} = language
   
+  
   return (
     <div className='info'>
           <div className='container'>
-            <h1>{text.title}</h1>
-            <h1>Mi nombre es <br/>Estefanía Escarria García</h1>
-            <p>Soy Ingeniera Industrial y actualmente estudiante de la <br/>carrera Certified Tech Developer 💻 en Digital House. </p>
-            <p>Soy una apasionada por la tecnología y estoy en búsqueda <br/> de una oportunidad para incursionar en el mundo TI <br/>
-            como Desarrolladora Backend y poder participar en proyectos <br/>desafiantes.</p>
+            <h1>{text.home.title}</h1>
+            <h1>{text.home.title2} <br/>Estefanía Escarria García</h1>
+            <p> {text.home.description} </p>
+            <p>{text.home.description2}</p>
        
         </div>
         <div className='button_container'>
                 <a href="./CV.pdf" download="CV_Estefania_Escarria">
-                <button className='button cv'>DESCARGAR CV</button>
+                <button className='button cv'>{language.id === "EN" ? "DOWNLOAD CV" : "DESCARGAR CV"}</button>
                 </a>
                 
-                <Link to="/contact"><button className='button'>CONTACTO</button></Link>                    
+                <Link to="/contact"><button className='button'>{language.id === "EN" ? "CONTACT" : "CONTACTO"}</button></Link>                    
                 
                 
         </div>        

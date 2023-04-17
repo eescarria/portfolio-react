@@ -1,7 +1,9 @@
 {
-  "title":"Hola!",
-  "description": "Aprenderan como utilizar context para hacer sus traducciones",
-  "home": "Inicio",
-  "current": "Idioma actual",
-  "button": "Cambiar Idioma"
+  "home" : {
+    "title":"Hola!",
+    "title2": "Mi nombre es",
+    "description": "Soy Ingeniera Industrial y actualmente estudiante de la carrera Certified Tech Developer 💻 en Digital House.",
+    "description2": "Soy una apasionada por la tecnología y estoy en búsqueda de una oportunidad para incursionar en el mundo TI como Desarrolladora Backend y poder participar en proyectos desafiantes."    
+  }
+  
 }
