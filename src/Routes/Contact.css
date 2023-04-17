@@ -1,9 +1,11 @@
 .container{
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
     background-color: #FAFAFA;
-    height: 100%;  
-    margin-left: 160px;
-    text-align: left;
+    margin-left: 200px;
     
+    width: 100%;
 }
 
 .contact_header{
@@ -38,9 +40,9 @@
 }
 
 .leyenda{
-    font-size: 15px;
+    font-size: 18px;
     color: #5f5f5f;
-    font-weight: 400;
+    font-weight: 450;
     text-align: left;
     margin-bottom: 1rem;
     
@@ -49,6 +51,7 @@
 .contact_options{
     display: flex;
     flex-direction: column;
+    align-items:start;
     width: 150%;
     
 }
@@ -58,8 +61,9 @@
     align-items: center;
 }
 
-a{
+.link{
     text-decoration: none;
-    color: black;
+    color: darkblue;
+    font-weight: 450;
     font-size: 20px;
 }

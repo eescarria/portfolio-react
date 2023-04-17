@@ -1,9 +1,12 @@
 .about{
+    display: flex;
+    flex-direction: column;
     padding: 2.5rem;
     background-color: #FAFAFA;
-    height: 100%;  
-    margin-left: 160px;
+    margin-left: 200px;
     text-align: left;
+
+    height: 100%;
 }
 
 .about_logo {
@@ -14,7 +17,7 @@
     
 }
 
-.about_text{  
+.about_text{
     margin-top: 2rem;
     text-align: justify;
 
@@ -25,9 +28,7 @@
 }
 
 .about_header{
-
-    display: flex;
-    
+    display: flex;    
     justify-content: left;
     align-items: center;
     gap: 1rem;    

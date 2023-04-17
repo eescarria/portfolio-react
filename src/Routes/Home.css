@@ -2,7 +2,7 @@
     
     background-color: #FAFAFA;
     color: #fff;
-    margin-left: 160px;
+    margin-left: 200px;
     height: 100%;
     width: 900px;
 }
@@ -31,6 +31,7 @@
     gap: 1.25rem;
     width: 900px;
     justify-content: left;
+    margin-left: 200px;
     
 }
 

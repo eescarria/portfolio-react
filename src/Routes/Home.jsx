@@ -17,7 +17,7 @@ export const Home = () => {
             <p> {text.home.description} </p>
             <p>{text.home.description2}</p>
        
-        </div>
+          </div>
         <div className='button_container'>
                 <a href="./CV.pdf" download="CV_Estefania_Escarria">
                 <button className='button cv'>{language.id === "EN" ? "DOWNLOAD CV" : "DESCARGAR CV"}</button>
