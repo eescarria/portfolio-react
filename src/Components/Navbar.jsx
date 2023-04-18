@@ -19,7 +19,9 @@ const Navbar = () => {
             <Link to="/contact">{language.id === "EN" ?  "Contact" : "Contacto"}</Link>
         </div>
 
-        <button className="button_flag" onClick={handleChangeLA}>{language.id === "EN" ?  <> <img className='flag' src="./spain.png" alt="Spanish" /></> : <> <img className='flag' src="./usa2.png" alt="English" /></>} </button>
+        <a className='link_flag' onClick={handleChangeLA}>{language.id === "EN" ?  <> <img className='flag' src="./spain.png" alt="Spanish" /></> : <> <img className='flag' src="./usa2.png" alt="English" /></>}</a>
+
+        
     </nav>
     
   )

@@ -10,7 +10,7 @@ export const Contact = () => {
   const {text} = language
 
   return (
-    <div className='container'>
+    <div className='container_contact'>
       <div className='contact_header'>
         <GrContactInfo className='contact_logo'/>
         <p>{text.contact.title}</p>

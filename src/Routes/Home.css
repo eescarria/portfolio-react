@@ -1,11 +1,10 @@
-.container{
-    
+.info{
+    display: flex;
+    flex-direction: column;
     background-color: #FAFAFA;
-    color: #fff;
-    margin-left: 200px;
-    height: 100%;
-    width: 900px;
+    margin-left: 200px  
 }
+
 
 .info h1{
     font-size: 40px;
@@ -16,12 +15,14 @@
 }
 
 .info p{
-    margin-top: 1.75rem;
+    
     font-size: 18px;
     font-weight: 400;
     color: #252323;
     text-align: justify;
     margin-bottom: 1rem; 
+
+    width: 80%;
 }
 
 .button_container{
@@ -29,9 +30,8 @@
     flex-direction: column;
     margin-top: 3rem;
     gap: 1.25rem;
-    width: 900px;
     justify-content: left;
-    margin-left: 200px;
+    
     
 }
 
@@ -55,3 +55,20 @@
     color: white;
     border: none;
 }
+
+@media(max-width: 780px){
+
+    
+    .info{
+        margin:150px
+    }
+    .info p{
+        width: 100%;
+    }
+
+    .info h1{
+        width: 40%;
+    }
+
+}
+

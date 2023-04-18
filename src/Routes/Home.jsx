@@ -11,7 +11,7 @@ export const Home = () => {
   
   return (
     <div className='info'>
-          <div className='container'>
+          <div className='container_home'>
             <h1>{text.home.title}</h1>
             <h1>{text.home.title2} <br/>Estefanía Escarria García</h1>
             <p> {text.home.description} </p>
