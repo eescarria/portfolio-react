@@ -20,10 +20,14 @@ export const Home = () => {
        
           </div>
         <div className='button_container'>
+                {language.id === "EN" ? 
+                <a href="./CV_EN.pdf" download="CV_Estefania_Escarria">
+                <button className='button cv'>{language.id === "EN" ? "DOWNLOAD CV" : "DESCARGAR CV"}</button>
+                </a>:
                 <a href="./CV.pdf" download="CV_Estefania_Escarria">
                 <button className='button cv'>{language.id === "EN" ? "DOWNLOAD CV" : "DESCARGAR CV"}</button>
-                </a>
-                
+                </a>}
+                                
                 <Link to="/contact"><button className='button'>{language.id === "EN" ? "CONTACT" : "CONTACTO"}</button></Link>                    
                 
                 
