@@ -14,6 +14,7 @@ export const Home = () => {
           <div className='container_home'>
             <h1>{text.home.title}</h1>
             <h1>{text.home.title2} <br/>Estefanía Escarria García</h1>
+            <img className='fotoHV2' src="./images/foto.jpg" alt="" />
             <p> {text.home.description} </p>
             <p>{text.home.description2}</p>
        
