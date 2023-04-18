@@ -1,4 +1,5 @@
 nav{
+
   margin: 0 auto;
   display: flex;
   justify-content: space-around;
@@ -8,8 +9,6 @@ nav{
 }
 
 nav{
-    display: flex;
-    flex-direction: column;
     width: 13vw;
     height: 100%;
     background-color: #181818;
@@ -35,7 +34,8 @@ nav{
     
   }
 
-nav img{
+.fotoHV{
+    display:initial;
     width: 120px;
     height: 160px;
     border-radius: 50%;
@@ -79,7 +79,28 @@ nav img{
 
 @media(max-width: 480px){
   nav{
-      width: 30vw;
-  }    
+      flex-direction: row;
+      position: initial;
+      width: 100%;
+      height: 60px;
+  }
   
+  .nav_elements{
+    flex-direction: row;
+  }
+  
+  .fotoHV{
+    display: none;
+  }
+
+  .nav_elements a{
+    border: none;
+    font-size: 15px;
+    margin-left: 10px;
+    line-height:normal;
+  }
+
+  .link_flag{
+    margin-top: 0;
+  }
 }

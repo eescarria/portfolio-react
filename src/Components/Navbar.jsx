@@ -11,7 +11,7 @@ const Navbar = () => {
 
   return (
     <nav>
-        <img src="./images/foto.jpg" alt="" />
+        <img className='fotoHV' src="./images/foto.jpg" alt="" />
         <div className='nav_elements'>
             <Link to="/">{language.id === "EN" ?  "Home" : "Inicio"}</Link>            
             <Link to="/about">{language.id === "EN" ?  "About me" : "Acerca de mi"}</Link>

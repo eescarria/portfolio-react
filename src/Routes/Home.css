@@ -67,7 +67,25 @@
     }
 
     .info h1{
-        width: 40%;
+        width: 70%;
+    }
+
+}
+
+@media(max-width: 480px){
+
+    
+    .info{
+        margin:0
+    }
+    .info p{
+        width: 100%;
+    }
+
+    .info h1{
+        width: 100%;
+        font-size: 30px;
+        
     }
 
 }
