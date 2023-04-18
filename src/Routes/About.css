@@ -5,8 +5,8 @@
     background-color: #FAFAFA;
     margin-left: 200px;
     text-align: left;
-
-    height: 100%;
+    
+    
 }
 
 .about_logo {
@@ -82,3 +82,64 @@
     margin-top: 0.5rem;
     letter-spacing: 0.5px;
 }
+
+@media(max-width: 780px){
+
+    .about_skill img{
+        width: 30px;
+        height: 30px;
+        
+    }
+
+    .skills_name{
+        font-size: 20px;
+    }
+   
+  }
+  
+  @media(max-width: 480px){
+    .about{
+        margin: 0;
+        width: 100%;
+        padding: 0;
+    }
+
+    .about_header div p{
+        font-size: 30px;
+    }
+
+    .about_logo {
+        width: 35px;
+        height: 35px;
+    }
+
+    .about_text{
+        margin: 0;
+        
+        font-size: 15px;
+        width: 100%;
+    }
+
+    .about_skills{
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-areas:
+        "a b"
+        "center center";
+    }
+
+    .about_skill{
+        justify-content:center;
+    }
+
+    .about_skill img{
+        width: 50px;
+        height: 50px;
+        
+    }
+
+    .skills_name{
+        font-size: 17px;
+    }
+
+    
+  }
