@@ -16,6 +16,21 @@
   "projects": {
     "title": "Proyectos",
     "list" :[
+      { "name": "FieldRent",
+        "description" : "Sitio web para el alquiler de canchas para realizar distintos deportes. Proyecto Integrador carrera Certified Tech Developer",
+        "logos" : [
+          "./java.png",
+          "./spring.png",
+          "./react.png",
+          "./javascript.png",
+          "./css.png",
+          "./aws.png"
+        ],
+        "github" : "https://github.com/eescarria/CTD-PI-Fieldrent.git",
+        "vercel": "http://bucket-fieldrent-front.s3-website.us-east-2.amazonaws.com/",
+        "img" : "./fielrent.PNG",
+        "alt": "Foto PI"
+      },
       { "name": "Clínica odontológica",
         "description" : "Sistema que permite administrar la reserva de turnos entre pacientes y odontólogos.  Gestiona los datos de odontólogos, pacientes, turnos y tiene Login.",
         "logos" : [

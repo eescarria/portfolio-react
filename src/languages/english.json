@@ -16,6 +16,21 @@
   "projects": {
     "title": "Projects",
     "list" :[
+        { "name": "FieldRent",
+          "description" : "Website for the rental of fields for different sports. Project Integrator for the career Certified Tech Developer",
+          "logos" : [
+            "./java.png",
+            "./spring.png",
+            "./react.png",
+            "./javascript.png",
+            "./css.png",
+            "./aws.png"
+          ],
+          "github" : "https://github.com/eescarria/CTD-PI-Fieldrent.git",
+          "vercel": "http://bucket-fieldrent-front.s3-website.us-east-2.amazonaws.com/",
+          "img" : "./fielrent.PNG",
+          "alt": "Foto PI"
+        },
         { "name": "Dental Clinic",
           "description" : "Reservation system that allows to schedule appointments between patients and dentists.  Manage the data of dentists, patients, shifts and it also has Secure Login System.",
           "logos" : [
